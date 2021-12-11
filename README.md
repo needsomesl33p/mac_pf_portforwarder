@@ -61,6 +61,6 @@ rdr pass on en0 inet proto tcp from any to any port = 443 -> 127.0.0.1 port 8088
 ```
 You can see the applied firewall rules under the "TRANSLATION RULES" section.
 
-# To flush all the rules issue the following command:
+###### To flush all the rules issue the following command:
 
 `sudo pfctl -F all`
