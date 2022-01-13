@@ -1,4 +1,4 @@
-# Mac OS Packer Filter (pf ) port forwarder
+# Mac OS Packet Filter (pf ) port forwarder
 
 This sh script sets up Packet Filter rules and redirects all outgoing TCP traffic on port 80 and 443 to the defined proxy server.  
 
@@ -39,7 +39,7 @@ Password:
 net.inet.ip.forwarding: 0 -> 1
 net.inet6.ip6.forwarding: 0 -> 1
 
-[+] Creating and loading Packer Filter config file...
+[+] Creating and loading Packe Filter config file...
 
 pfctl: Use of -f option, could result in flushing of rules
 present in the main ruleset added by the system at startup.
